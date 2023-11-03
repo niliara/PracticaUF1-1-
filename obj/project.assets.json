@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/nilara/.nuget/packages/": {}
+    "/home/niliara/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nilara/ent/PracticaUF1-1-/PracticaUF1-1-.csproj",
+      "projectUniqueName": "/home/niliara/ent/PracticaUF1-1-/PracticaUF1-1-.csproj",
       "projectName": "PracticaUF1-1-",
-      "projectPath": "/home/nilara/ent/PracticaUF1-1-/PracticaUF1-1-.csproj",
-      "packagesPath": "/home/nilara/.nuget/packages/",
-      "outputPath": "/home/nilara/ent/PracticaUF1-1-/obj/",
+      "projectPath": "/home/niliara/ent/PracticaUF1-1-/PracticaUF1-1-.csproj",
+      "packagesPath": "/home/niliara/.nuget/packages/",
+      "outputPath": "/home/niliara/ent/PracticaUF1-1-/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nilara/.nuget/NuGet/NuGet.Config"
+        "/home/niliara/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

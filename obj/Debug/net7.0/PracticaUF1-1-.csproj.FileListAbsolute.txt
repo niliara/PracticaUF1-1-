@@ -12,3 +12,17 @@
 /home/nilara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.pdb
 /home/nilara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.genruntimeconfig.cache
 /home/nilara/ent/PracticaUF1-1-/obj/Debug/net7.0/ref/PracticaUF1-1-.dll
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.GeneratedMSBuildEditorConfig.editorconfig
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.AssemblyInfoInputs.cache
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.AssemblyInfo.cs
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.csproj.CoreCompileInputs.cache
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.dll
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/refint/PracticaUF1-1-.dll
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.pdb
+/home/niliara/ent/PracticaUF1-1-/bin/Debug/net7.0/PracticaUF1-1-
+/home/niliara/ent/PracticaUF1-1-/bin/Debug/net7.0/PracticaUF1-1-.deps.json
+/home/niliara/ent/PracticaUF1-1-/bin/Debug/net7.0/PracticaUF1-1-.runtimeconfig.json
+/home/niliara/ent/PracticaUF1-1-/bin/Debug/net7.0/PracticaUF1-1-.dll
+/home/niliara/ent/PracticaUF1-1-/bin/Debug/net7.0/PracticaUF1-1-.pdb
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/PracticaUF1-1-.genruntimeconfig.cache
+/home/niliara/ent/PracticaUF1-1-/obj/Debug/net7.0/ref/PracticaUF1-1-.dll

@@ -3,13 +3,12 @@
 
 	public static class Globals
 	{
-		public static int p1Hp = 3;
-		public static int p2Hp = 6;
+		public static int p1Hp;
+		public static int p2Hp;
 	}
 
 	public static void Main(string[] args)
 	{
-
 		int choice;
 		int response;
 		int whowon;
@@ -17,21 +16,42 @@
 		string[] Weapons = {"ROCK","PAPER","SCISSORS"};
 		string[] Results = {"matches","wins to","loses to"};
 
-		Console.WriteLine("Battle starts!!!");
-		Console.WriteLine("Select your weapon!!!");
-		Console.WriteLine(":: 0 : rock :: 1 : paper :: 2 : scissors ::");
+		while (true)
+		{
+			Globals.p1Hp = 4;
+			Globals.p2Hp = 6;
 
-		
-		choice = int.Parse(Console.ReadLine());
-		response = rNum();
+			Console.WriteLine("\n\nBattle starts!!!\n");
 
-		Console.WriteLine("\nRock, paper, scissors!!\n");
+			while (Globals.p1Hp > 0 && Globals.p2Hp > 0)
+			{
+				Console.WriteLine("Select your weapon!!!");
+				Console.WriteLine(":: 0 : rock :: 1 : paper :: 2 : scissors ::");
 
-		whowon = getResult(choice, response);
-		
-		Console.WriteLine("<< {0} {1} {2}!! >>", Enumerable.Range(0,3).Contains(choice) ? Weapons[choice] : "POOP", Results[whowon], Weapons[response]);
+				
+				choice = int.Parse(Console.ReadLine());
+				response = rNum();
 
-		applyConsequences(whowon);
+				Console.WriteLine("\nRock, paper, scissors!!\n");
+
+				whowon = getResult(choice, response);
+				
+				Console.WriteLine("<< {0} {1} {2}!! >>\n", Enumerable.Range(0,3).Contains(choice) ? Weapons[choice] : "POOP", Results[whowon], Weapons[response]);
+
+				applyConsequences(whowon);
+				
+				if (Globals.p1Hp == 0 || Globals.p2Hp == 0)
+				{
+					Console.WriteLine("\nCongrats!! You {0}!!!\n", whowon==1  ? "win" : "lose");
+				}
+			}
+
+			Console.WriteLine("Do you want to play again? (Y/N)");
+			if (Console.ReadLine().ToLower() == "n")
+			{
+				break;
+			}
+		}
 	}
 
 	static int rNum()
@@ -55,17 +75,19 @@
 		return 2;
 	}
 
-	static void applyConsequences(int num){
-		switch{
-			case 0:
-				break;
+	static void applyConsequences(int num)
+	{
+		switch(num)
+		{
 			case 1:
-				Global.p2Hp;
-				Console.WriteLine($"Enemy HP left: {Global.p2Hp}");
+				Globals.p2Hp -= 1;
+				Console.WriteLine($"Enemy HP left: {Globals.p2Hp}");
+				break;
 			case 2:
-				Global.p1Hp;
-				Console.WriteLine($"HP left: {Global.p1Hp}");
-			Console.WriteLine($"\nyour hp: {Global.p1Hp} :: enemy hp: {Global.p2Hp}\n");
+				Globals.p1Hp -= 1;
+				Console.WriteLine($"HP left: {Globals.p1Hp}");
+				break;
 		}
+		Console.WriteLine($"\nyour hp: {Globals.p1Hp} :: enemy hp: {Globals.p2Hp}\n");
 	}
 }
